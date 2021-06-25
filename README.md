@@ -20,7 +20,7 @@ npm run build
 npm run lint
 ```
 
-### For more info on integration check [README](../helpers/README.md) in helpers folder
+### For more info on integration check [README](./helpers/README.md) in helpers folder
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
