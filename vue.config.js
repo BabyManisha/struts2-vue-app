@@ -4,7 +4,7 @@ module.exports = {
   runtimeCompiler: true,
   parallel: false,
   
-  publicPath: process.env.NODE_ENV === 'production' ? '/gui/struts2-vue-app/dist/' : '/static/',
+  publicPath: '/gui/struts2-vue-app/dist/',
 
   productionSourceMap: process.env.NODE_ENV !== 'production',
 

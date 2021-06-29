@@ -32,9 +32,24 @@
 
 http://localhost:8080/
 
+----
+# For Devlopment Mode
+
+## Step-1 Add below code before closing body tag (</body>) in any common .tag / .jsp file
+```
+<script type="text/javascript" src="/gui/vue-app/dist/js/app.js"></script>
+<script type="text/javascript" src="/gui/vue-app/dist/js/chunk-vendors.js"></script>
+```
+
+## Step-2 Start vue-app in the serve mode
+
+## Step-3 Use the nginx.conf file & start the nginx service
+
+## Step-4 Now open check the UI
+
+http://localhost:8888/
 
 
-Note: Use nginx.conf to run this in dev mode. (JFYI -This needs to be tested)
 
 ----
 
